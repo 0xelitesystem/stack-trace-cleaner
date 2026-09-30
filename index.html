@@ -35,7 +35,7 @@
   --ink: #1a2028;
   --ink-soft: #5a6878;
   --rule: #c8d0dc;
-  --cyan: #1880a0;
+  --cyan: #13657e;
   --cyan-deep: #0a5878;
   --cyan-dim: #5898b0;
   --noise: #a0a8b4;
@@ -333,6 +333,9 @@ footer a:hover { text-decoration: underline; }
 }
 :root { color-scheme: dark; }
 :root[data-theme="light"] { color-scheme: light; }
+
+/* Footer links are underlined so they never rely on colour alone (WCAG 1.4.1). */
+footer a { text-decoration: underline; text-underline-offset: 0.15em; }
 </style>
 </head>
 <body>
