@@ -26,7 +26,7 @@ Per-language patterns the tool filters:
 - **Ruby**: `gems/`, Rails, ActiveSupport, ActionPack, Bundler
 - **Go**: `runtime/`, `pkg/mod/`, package-level `runtime.` calls
 
-## Why
+## Why this exists
 
 A stack trace from a vibe-coded project often has 30 frames where 3 are yours. The 27 noise frames make the actual problem harder to see. Cleaning surfaces the user-code frames immediately.
 
@@ -39,6 +39,8 @@ A stack trace from a vibe-coded project often has 30 frames where 3 are yours. T
 ## Privacy
 
 Pure browser, no upload, no analytics.
+
+If you use the theme toggle, your light or dark choice is saved in your browser's localStorage under the key `theme`. Nothing else is stored.
 
 ## Run locally
 
